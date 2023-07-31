@@ -1,1 +1,5 @@
-thanks god
+FROM ubuntu
+RUN apt update -y
+RUN useradd
+USER esso
+
